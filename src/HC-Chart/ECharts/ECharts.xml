@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="ECharts.widget.ECharts" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>ECharts</name>
+  <description>ECharts4.x封装</description>
+  <icon />
+  <properties>
+    <property key="chartWidth" type="integer" defaultValue="100">
+      <caption>宽度</caption>
+      <category>开发者选项</category>
+      <description>图表宽度</description>
+    </property>
+    <property key="chartHeight" type="integer" defaultValue="100">
+      <caption>高度</caption>
+      <category>开发者选项</category>
+      <description>图表高度</description>
+    </property>
+    <property key="entity" type="entity">
+      <caption>选择实体</caption>
+      <category>开发者选项</category>
+      <description></description>
+    </property>
+    <property key="option" type="string" multiline="true" required="false">
+      <caption>配置项</caption>
+      <category>开发者选项</category>
+      <description>参考ECharts的option配置项</description>
+    </property>
+    <!-- <property key="series" type="object" isList="true">
+      <caption>series</caption>
+      <category>开发者选项</category>
+      <description>选择需要渲染的属性</description>
+      <properties>
+        <property key="seriesEntity" type="entity" required="true">
+          <caption>实体</caption>
+          <category>Data source</category>
+          <description>选择一个字段</description>
+        </property>
+        
+      </properties>
+    </property> -->
+    <!-- <property key="collection" type="object" isList="true" required="true">
+      <caption>集合</caption>
+      <category>开发者选项</category>
+      <description>添加数据集到你的图表中</description>
+      <properties>
+        <property key="entity" type="entity" required="true">
+          <caption>实体</caption>
+          <category>数据源</category>
+          <description>实体的数据源</description>
+        </property>
+      </properties>
+    </property> -->
+  </properties>
+</widget>

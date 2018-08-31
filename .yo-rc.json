@@ -1,0 +1,11 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "HC System",
+      "license": "MIT",
+      "author": "loong",
+      "boilerplate": "empty",
+      "widgetoptions": []
+    }
+  }
+}

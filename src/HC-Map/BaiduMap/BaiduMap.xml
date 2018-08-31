@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="BaiduMap.widget.BaiduMap" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>百度地图</name>
+  <description>百度地图3.x封装</description>
+  <icon />
+  <properties>
+    <property key="ak" type="string" defaultValue="0lPULNZ5PmrFVg76kFuRjezF">
+      <caption>密钥key</caption>
+      <category>开发者选项</category>
+      <description>百度开发者密钥</description>
+    </property>
+    <property key="mapWidth" type="string" defaultValue="100%">
+      <caption>宽度</caption>
+      <category>配置</category>
+      <description>地图宽度，单位：px或%</description>
+    </property>
+    <property key="mapHeight" type="string" defaultValue="100%">
+      <caption>高度</caption>
+      <category>配置</category>
+      <description>地图高度，单位：px或%</description>
+    </property>
+  </properties>
+</widget>
